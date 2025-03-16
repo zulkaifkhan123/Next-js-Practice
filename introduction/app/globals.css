@@ -1,0 +1,29 @@
+*{
+  font-family: sans-serif;
+  padding: 0%; margin: 0%;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3vw 10vw;
+  background-color: rgba(245, 245, 245, 0.805);
+}
+nav h1{
+  font-size: 2rem;
+}
+nav div{
+  display: flex;
+  gap: 1vw;
+}
+nav div a,nav a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+}
+#contact,#about,#home {
+  padding: 2vw 10vw;
+}
+.container{
+  position: relative;
+}
